@@ -1,0 +1,2221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/yihaodian.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/yihaodian_details.css"/>
+	</head>
+	<body>
+		<!--登录和搜索-->
+		<div class="top_login_search">
+			<!--登录-->
+			<div class="top_login_bar">
+				<div class="top_login_bar2">
+					<div class="top_login">
+						<div class="login_left">
+							<span>1号店首页</span>
+						</div>
+						<div class="login_right">
+							<div class="phone">
+								<a href="#">APP下载</a>
+								<img src="img/login_search/code.png" style="display: none;"/>
+							</div>
+							<div class="client_server">
+								<a href="#">客户服务</a>
+								<div class="arrow"><img src="img/login_search/client_server_arrow.png"/></div>
+								<div class="client_server_muen" id="hide">
+									<ul>
+										<a href="#"><li>包裹跟踪</a></li>
+										<a href="#"><li>在线退换货</a></li>
+									</ul>
+								</div>
+							</div>
+						
+							<div class="my_order">
+								<a href="#">我的订单</a>
+							</div>
+							
+							<div class="register">
+								<a href="#">注册</a>
+							</div>
+							
+							<div class="login">
+								<span>雷猴,请</span>
+								<a href="#">登录</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--搜索-->
+			<div class="search">
+				<div class="logo">
+					<a href="index.html"><img src="img/classify/class_logo.png" style="width: 205px; height: 110px;"/></a>
+				</div>
+				<div class="search_enter">
+					<input type="search" placeholder="买大闸蟹就上2号店" id="enter"/>
+					<img src="img/login_search/search.png" width="50px" height="37px"/>
+					<p>
+						<a href="#">休闲鞋</a>
+						<a href="#">oppo手机</a>
+						<a href="#">坚果</a>
+						<a href="#">炒货</a>
+						<a href="#">奶粉</a>
+						<a href="#">卷纸自营</a>
+						<a href="#">苏菲</a>
+						<a href="#">牛奶乳品</a>
+						<a href="#">饼干糕点</a>
+						<a href="#">牙膏</a>
+						<a href="#">家庭清洁</a>
+					</p>
+				</div>
+				<div class="shopping_car">
+					<a>购物车</a>
+				</div>
+			</div>
+			
+			<div class="all_class_contain">
+				<div class="all_class">
+					<a>所有商品分类<i id="white_arrow"><img src="img/classify/white_arrow.png"/></i></a>
+					
+					<div class="nav_big_left">
+						<ul>
+							<li id="nav_big_left_1">
+								<h4><a href="#">全球进口</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+							</li>
+							<li id="nav_big_left_2">
+								<h4><a href="#">食品</a> / <a href="#">酒</a> / <a href="#">生鲜</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>酒水/饮料 ></dt>
+											<dd>
+												<a href="#">白酒</a>
+												<a href="#">葡萄酒</a>
+												<a href="#">黄酒</a>
+												<a href="#" id="red">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">咖啡</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">茶饮料</a>
+												<a href="#">果汁</a>
+												<a href="#">功能饮料</a>
+												<a href="#">植物蛋白饮料</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd>
+												<a href="#">坚果</a>
+												<a href="#">糖果</a>
+												<a href="#">巧克力</a>
+												<a href="#">肉脯</a>
+												<a href="#">蜜饯/果干</a>
+												<a href="#">果冻</a>
+												<a href="#">海味零食</a>
+												<a href="#">膨化食品</a>
+												<a href="#">奶酪干/乳制品</a>
+												<a href="#" id="red">龟苓膏</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>粮油干货 ></dt>
+											<dd><a href="#">玉米油</a>
+												<a href="#">花生油</a>
+												<a href="#">大豆油</a>
+												<a href="#">葵花籽油</a>
+												<a href="#">橄榄油</a>
+												<a href="#">大米</a>
+												<a href="#">面粉</a>
+												<a href="#">杂粮</a>
+												<a href="#">桂圆莲子</a>
+												<a href="#">菌菇枸杞</a>
+												<a href="#">海干货</a>
+												<a href="#">面条</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+		
+							</li>
+							<li id="nav_big_left_3">
+								<h4><a href="#">母婴</a> / <a href="#">玩具</a>  / <a href="#">童装</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>奶粉 ></dt>
+											<dd>
+												<a href="#">1段奶粉</a>
+												<a href="#">2段奶粉</a>
+												<a href="#">3段奶粉</a>
+												<a href="#">4段奶粉</a>
+												<a href="#">孕妈奶粉</a>
+												<a href="#">有机奶粉</a>
+												<a href="#">特殊配方奶粉</a>
+												<a href="#">羊奶粉</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>营养辅食 ></dt>
+											<dd>
+												<a href="#">宝宝零食</a>
+												<a href="#">米粉/菜粉</a>
+												<a href="#">面条/粥</a>
+												<a href="#">益生菌/初乳</a>
+												<a href="#">果泥/果汁</a>
+												<a href="#">DHA</a>
+												<a href="#">钙铁锌/维生素</a>
+												<a href="#">清火/开胃</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>尿裤湿巾 ></dt>
+											<dd><a href="#">纸尿裤</a>
+												<a href="#">拉拉裤</a>
+												<a href="#">婴儿湿巾</a>
+												<a href="#">成人尿裤</a>
+												<a href="#">NB</a>
+												<a href="#">S</a>
+												<a href="#">M</a>
+												<a href="#">L</a>
+												<a href="#">XL</a>
+												<a href="#">XXL</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							</li>
+							<li id="nav_big_left_4">
+								<h4><a href="#">纸巾</a> / <a href="#">厨卫清洁</a> / <a href="#">宠物</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>纸品湿巾 ></dt>
+											<dd>
+												<a href="#">厨房用纸</a>
+												<a href="#">平板卫生纸</a>
+												<a href="#" id="red">手帕纸</a>
+												<a href="#">湿巾</a>
+												<a href="#">卷筒纸</a>
+												<a href="#" id="red">抽纸</a>
+												<a href="#">商务纸</a>
+												<a href="#">湿厕纸</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>衣物清洁 ></dt>
+											<dd>
+												<a href="#">洗衣粉</a>
+												<a href="#">洗衣皂</a>
+												<a href="#">洗衣液/凝珠</a>
+												<a href="#">柔顺剂</a>
+												<a href="#">衣物除菌液</a>
+												<a href="#">衣领净</a>
+												<a href="#">彩漂</a>
+												<a href="#">去渍剂</a>
+												<a href="#">天然皂粉</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>家庭清洁 ></dt>
+											<dd><a href="#" id="red">洗洁精</a>
+												<a href="#" id="red">消毒液</a>
+												<a href="#">油污清洁剂</a>
+												<a href="#">浴缸瓷砖清洁剂</a>
+												<a href="#">除臭芳香</a>
+												<a href="#">地板清洁护理</a>
+												<a href="#">家私清洁皮具护</a>
+												<a href="#">多用途清洁剂</a>
+												<a href="#">家电清洁剂</a>
+												<a href="#">管道疏通</a>
+												<a href="#">驱虫防霉防蛀</a>
+												<a href="#">鞋用品</a>
+												<a href="#">马桶清洁剂</a>
+												<a href="#">水垢清洁</a>
+												<a href="#">玻璃清洁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>		
+							</li>
+							<li id="nav_big_left_5">
+								<h4><a href="#">家居家纺</a> / <a href="#">厨具</a> / <a href="#">家具</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							</li>
+							<li id="nav_big_left_6">
+								<h4><a href="#">美妆</a> / <a href="#">个人清洁</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+								
+							</li>
+							<li id="nav_big_left_7">
+								<h4><a href="#">女装</a> / <a href="#">男装</a> / <a href="#">内衣 / <a href="#">珠宝</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+							</li>
+							<li id="nav_big_left_8">
+								<h4><a href="#">鞋靴</a> / <a href="#">箱包</a> / <a href="#">运动户外</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+							</li>
+							<li id="nav_big_left_9">
+								<h4><a href="#">手机</a> / <a href="#">数码</a> / <a href="#">电脑办公</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+							</li>
+							<li id="nav_big_left_10">
+								<h4><a href="#">家用电器</a> / <a href="#">汽车用品</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+							</li>
+							<li id="nav_big_left_11">
+								<h4><a href="#">医药</a> / <a href="#">保健滋补</a> / <a href="#">成人</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+							</li>
+							<li id="nav_big_left_12">
+								<h4><a href="#">图书</a></h4>
+								<div class="left_1_menu" id="hide">
+									<div class="left_1_menu_text">
+										<dl>
+											<dt>乳品生鲜 ></dt>
+											<dd>
+												<a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#" id="red">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>饼干糕点 ></dt>
+											<dd>
+												<a href="#">粗粮饼干</a>
+												<a href="#">曲奇</a>
+												<a href="#">威化</a>
+												<a href="#">夹心饼干</a>
+												<a href="#">苏打饼干</a>
+												<a href="#">糕点</a>
+												<a href="#">蛋卷</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>酒水饮料 ></dt>
+											<dd><a href="#">葡萄酒</a>
+												<a href="#">啤酒</a>
+												<a href="#">洋酒</a>
+												<a href="#">起泡酒</a>
+												<a href="#">饮用水</a>
+												<a href="#" id="red">含气水</a>
+												<a href="#">椰子水</a>
+												<a href="#">碳酸饮料</a>
+												<a href="#">果蔬汁</a>
+												<a href="#">依云</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>休闲零食 ></dt>
+											<dd><a href="#">什锦</a>
+												<a href="#">坚果</a>
+												<a href="#">蔬果干</a>
+												<a href="#">玉米片</a>
+												<a href="#">薯片/虾片</a>
+												<a href="#">米卷</a>
+												<a href="#">膨化食品</a>
+												<a href="#">海苔</a>
+												<a href="#">果冻/布丁</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>乳品生鲜></dt>
+											<dd><a href="#">牛奶</a>
+												<a href="#">成人奶粉</a>
+												<a href="#">酸奶</a>
+												<a href="#">豆奶</a>
+												<a href="#">奶酪</a>
+												<a href="#">黄油/奶油</a>
+												<a href="#">水果</a>
+												<a href="#">肉类</a>
+												<a href="#">海鲜</a>
+												<a href="#">冰淇淋</a>
+											</dd>
+										</dl>
+										
+									</div>
+									<div class="left_1_menu_pic">
+										<a href="#"><img src="img/nav_big/left_pic1.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic2.png" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic3.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic4.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic5.jpg" width="80px" height="32px"/></a>
+										<a href="#"><img src="img/nav_big/left_pic6.jpg" width="80px" height="32px"/></a>
+									</div>
+								</div>
+							
+							</li>
+						</ul>
+					</div>				
+				</div>
+				
+				<div class="nav_middle">
+					<ul>
+						<li>1号抢购 </li>
+						<li>1号团</li>
+						<li>领券中心</li>
+						<li>充值中心</li>
+						<li>全球进口</li>
+						<li>1号生鲜</li>
+						<li>美妆个护</li>
+						<li>家居馆</li>
+						<li>电器城</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="all_details_contain">
+			<div class="table_title">
+				<div class="table_title_left">
+					<span>食品饮料</span>
+					<img src="img/classify/right_arrow.png"/>
+					<span>进口食品</span>
+					<img src="img/classify/right_arrow.png"/>
+					<span>饮料</span>
+					<img src="img/classify/right_arrow.png"/>
+					<span>唯他可可（Vita Coco）</span>
+					<img src="img/classify/right_arrow.png"/>
+					<span>唯他可可饮料</span>
+				</div>
+				<div style="clear: both;">
+					
+				</div>
+			</div>
+			
+			<div class="details_middle">
+				<div class="details_middle_left">
+					<div class="left_pic">
+						<div class="left_pic_big">
+							<img src="img/details/591151ddNb0ac91e2.jpg"/>
+						</div>
+						<div class="left_pic_small">
+							<ul>
+								<li><img src="img/details/591151ddNb0ac91e2.jpg"/></li>
+								<li><img src="img/details/583690bdN504ef7d0.jpg"/></li>
+								<li><img src="img/details/583690c2Nede857d8.jpg"/></li>
+								<li><img src="img/details/583690c6Nc4baacab.jpg"/></li>
+								<li><img src="img/details/583690cbN4dd66aa7.jpg"/></li>
+								<div style="clear: both;"></div>
+							</ul>
+						</div>
+						<div class="left_bottom">
+							<p>
+								<span id="left_bottom_1">商品编号 1256818 | </span>
+								<span id="left_bottom_2">
+									<i id="left_bottom_2_1"><img src="img/details/a802e440ce763c02b5a0477b47d619d.png"/></i>
+									<i id="left_bottom_2_2"><img src="img/details/b7a70b76ab652e5a53b80ca73948fad.png"/></i>
+									关注
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="details_middle_middle">
+					<h4>
+						<span>自营</span>
+						唯他可可（Vita Coco）天然椰子水进口NFC果汁饮料330ml*12瓶 整箱
+					</h4>
+					<p id="middle_2">专业补水 0负担</p>
+					<div class="middle_mod">
+						<div class="middle_mod1">
+							<a></a>
+							<span>09月10日00:00 开始</span>
+							<div style="clear: both;"></div>
+						</div>
+						<div class="middle_mod2">
+							<span>价格</span>
+							<i>￥108</i>
+						</div>
+						<div class="middle_mod3">
+							<p>
+								<img src="img/details/64b73ebb354c1b21095a95bcf3018be.png"/>
+								好评率<span>98%</span>[评论<span>21万+</span>条]
+							</p>
+						</div>
+					</div>
+					
+					<div class="middle_choose">
+						<div class="choose_taste">
+							<span>选择口味:</span>
+							<ul>
+								<li id="choose"><img src="img/details/591151ddNb0ac91e2.jpg" style="width: 30px; height: 30px;"/>原味<i></i></li>
+								<li><img src="img/details/5909a15cN6cce6a84.jpg"/>菠萝味<i style="display: none;"></i></li>
+								<li><img src="img/details/59425c77Ne613d812.jpg"/>蜂蜜味<i style="display: none;"></i></li>
+							</ul>
+							<div style="clear: both;"></div>
+						</div>
+						<div class="choose_size">
+							<span>选择尺寸:</span>
+							<ul>
+								<li id="choose">330ml*12瓶<i></i></li>
+							</ul>
+							<div style="clear: both;"></div>
+						</div>
+					</div>
+					
+					<div class="middle_addr">
+						<div class="addr">
+							<span>送货至</span>
+							
+							<div class="choose_addr">
+								<a>北京密云区十里堡镇<img src="img/classify/brand/855f3ee0d213875f3fdc2189530acf6.png"></a>
+								<span>有货</span>
+								<i> 23:00前下单,预计明天(09月10日)送达</i>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+						<p>
+							由  1号店  发货, 并提供售后服务.       
+							<span>支持</span>   
+							<span id="blue">满86元免基础运费</span>
+						</p>
+						<div class="buybuybuy">
+							<div class="product_shopping2">
+				    			<input type="text" value="1" />
+				    			<div class="product_num2">
+				    				<span>
+				    					<a class="up2"></a>
+				    					<a class="down2"></a>
+				    				</span>
+				    			</div>
+				    			<div class="product_add2">
+				    				<a> </a>
+				    			</div>
+				    			
+				    			<a>降价通知</a>
+				    			<div style="clear: both;"></div>
+				    		</div>
+						</div>
+					</div>
+					<div class="last">
+						<span>保障</span>
+						<a><img src="img/details/9dd5b2852a91b4f9ab9042532afb16a.png"/>不支持7天无理由退货</a>
+						<a><img src="img/details/0e566b2d42eed25c8902f42440d7181.png"/>正品保障</a>
+						
+					</div>
+					
+				</div>
+				
+				<div class="details_right">
+					<div class="right_top">
+						<span>看了还看</span>
+						<a><img src="img/details/dce760e4fb0ea80ebeb61b158ffb547.png"/>换一批</a>
+						<div style="clear: both;">
+							
+						</div>
+					</div>
+					<div class="right_bottom">
+						<ul>
+							<li>
+								<img src="img/details/5940abc6N9c7089d3.jpg"/>
+								<p>唯他可可（Vita ...</p>
+								<p><span>￥45.0</span></p>
+							</li>
+							<li>
+								<img src="img/details/59425f05N86ca4c5d.jpg"/>
+								<p>唯他可可（Vita ...</p>
+								<p><span>￥69.0</span></p>
+							</li>
+							<li>
+								<img src="img/details/5909a27eN6b3e5c37.jpg"/>
+								<p>唯他可可（Vita ...</p>
+								<p><span>￥299.0</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			
+				<div style="clear: both;">
+					
+				</div>
+			</div>
+			
+			
+			
+			<div class="classify_bottom">
+		    	<div class="classify_bottom_1">
+			    	<a>
+			    		<img src="img/classify/bottom/CgQI0lWskgmADBnsAAAPZvcSh3E68900.png"/>
+			    		<p style="font-size: 16px; font-weight: bolder;">正品保障</p>
+			    		<p style="font-size: 14px; color: #999999;">正品行货 放心选购</p>
+			    	</a>
+			    	<a>
+			    		<img src="img/classify/bottom/ChEbulWsk4iADa_aAAAM544hHN818600.png"/>
+			    		<p style="font-size: 16px; font-weight: bolder;">满86包邮</p>
+			    		<p style="font-size: 14px; color: #999999;">满86元 免运费</p>
+			    	</a>
+			    	<a>
+			    		<img src="img/classify/bottom/CgQIz1WslI-Adao3AAAN5b_ut2I80100.png"/>
+			    		<p style="font-size: 16px; font-weight: bolder;">售后无忧</p>
+			    		<p style="font-size: 14px; color: #999999;">7天无理由退货</p>
+			    	</a>
+			    	<a>
+			    		<img src="img/classify/bottom/ChEi11WsyiyALBbiAAAN9lEEK5M33200.png"/>
+			    		<p style="font-size: 16px; font-weight: bolder;">准时送达</p>
+			    		<p style="font-size: 14px; color: #999999;">收货时间由你做主</p>
+			    	</a>
+			    </div>
+			    
+			    <div class="classify_bottom_2">
+			    	<div class="classify_bottom_2_left">
+			    		<dl>
+			    			<dt>新手入门</dt>
+			    			<dd>购物流程</dd>
+			    			<dd>会员制度</dd>
+			    			<dd>订单查询</dd>
+			    			<dd>发票制度</dd>
+			    			<dd>网站地图</dd>
+			    		</dl>
+			    		<dl>
+			    			<dt>支付方式</dt>
+			    			<dd>货到付款</dd>
+			    			<dd>网上支付</dd>
+			    			<dd>礼品卡支付</dd>
+			    			<dd>其它支付</dd>
+			    		</dl>
+			    		<dl>
+			    			<dt>配送服务</dt>
+			    			<dd>配送进度查询</dd>
+			    			<dd>商品验货与签收</dd>
+			    		</dl>
+			    		<dl>
+			    			<dt>售后保障</dt>
+			    			<dd>退换货政策</dd>
+			    			<dd>联系客服</dd>
+			    		</dl>
+			    	</div>
+			    	
+			    	<div class="classify_bottom_2_right">
+			    		<img src="img/classify/bottom/bbd10d1ea26e59c488a77e8d5baf8ed.png"/>
+			    	</div>
+			    	<div style="clear: both;">
+			    		
+			    	</div>
+			    </div>
+			    
+			    <div class="classify_bottom_3">
+			    	<p><a>沪ICP备16050468号</a> | <a>经营证照</a> | <a>互联网药品信息服务资格证</a> | <a>违法和不良信息举报电话：0527-88100253</a> | <a>沪B2-20170039</a> | <a>沪公网安备 31010502002939号</a> | <a>友情链接</a> | <a>出版物经营许可证</a></p>
+			    	<p>Copyright© 1号店网上超市 2007-2017，All Rights Reserved</p>
+			    	<p>
+			    		<a><img src="img/classify/bottom/CgQCr1PQy1CAF7vaAABDexsiEYM24800.jpg"/></a>
+			    		<a><img src="img/classify/bottom/ChEi1VcfPl2AC1T8AAANFrEfJlw97300.jpg"/></a>
+			    		<a><img src="img/classify/bottom/ChEi2lh171KAJrGlAAALl_uZt0E75600.jpg"/></a>
+			    		<a><img src="img/classify/bottom/ChEi1FYXHcOAVk_WAAAL2r2-yfo10200.jpg"/></a>
+			    		<a><img src="img/classify/bottom/CgQCrlPYTqCASlHXAAAd82JE0eA31000.png"/></a>
+			    		<a><img src="img/classify/bottom/5a706bb1Ne3eec0dd.png"/></a>
+			    	</p>
+			    </div>
+			    
+		   </div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,70 @@
+body{margin: 0px; padding: 0px;}
+#hide{display: none;}
+/*顶部*/
+.login_top{background: #FFFFFF; border: solid 1px #E1E1E1; height: 48px; padding: 12px;}
+.login_top_2{width: 1200px; margin: 0 auto;}
+.login_logo{float: left;}
+.login_top_right{float: right;}
+.help{position: relative; border: solid 1px #FFFFFF; float: right;}
+.help i{background: url(../img/yihaodian_login/regist.png)no-repeat -344px 0; display: inline-block; width: 16px; height: 18px; vertical-align: middle;}
+.help > img{float: right;margin-top: 5px; margin-right: 3px;}
+.help > a{line-height: 18px; font-size: 12px; text-decoration: none; color: black;}
+.help ul{position: absolute; left: -1px; margin: 0px; padding: 0px; width: 89px; background: #FFFFFF; border-bottom: solid 1px #CCCCCC;}
+.help ul li{list-style: none; font-size: 12px; color:black; margin-left: 18px; height: 25px;}
+.help ul a{text-decoration: none;  border-top: dashed 1px #cccccc; border-left: solid 1px #CCCCCC;border-right: solid 1px #CCCCCC;  display: block; line-height: 25px; }
+.wellcome{float: right; font-size: 12px; margin-top: 5px; margin-right: 20px;}
+.wellcome span{color: #999999;}
+.wellcome a{color: #0066CC; text-decoration: none;}
+
+/*背景*/
+.register_contain{background: #FCFCFC; position: relative; border-bottom: solid 1px #F7F7F7;}
+.register_contain_icon1{background: url(../img/register/r_icon1.png); position: absolute; left: 18%; top: 27px; width: 1200px; height: 500px; opacity: 0.2; z-index: 120;}
+.register_contain_icon2{background: url(../img/register/r_icon2.png); position: absolute; left: 18%; top: 27px; width: 1200px; height: 500px; opacity: 0.2; display: none; z-index: 120;}
+.register_contain_icon3{background: url(../img/register/r_icon3.png); position: absolute; left: 18%; top: 27px; width: 1200px; height: 500px; opacity: 0.2; display: none; z-index: 120;}
+.register_contain_icon4{background: url(../img/register/r_icon4.png); position: absolute; left: 18%; top: 27px; width: 1200px; height: 500px; opacity: 0.2; display: none; z-index: 120;}
+.register_contain_icon5{background: url(../img/register/r_icon5.png); position: absolute; left: 18%; top: 27px; width: 1200px; height: 500px; opacity: 0.2; display: none; z-index: 120;}
+
+/*内容*/
+.register_model{margin: 0 auto; width: 330px; position: relative; z-index: 150; padding: 30px 0px 40px 0px;}
+.register_model > h4{text-align: center; font-size: 24px;}
+
+/*输入*/
+.register_enter{margin: 0px; padding: 0px;}
+.register_enter li{list-style: none; position: relative; margin-top: 10px; margin-right: -200px;}
+.user{ width: 328px; height: 50px; border-radius: 3px; border: solid 1px #E5E5E5;}
+.user input{padding: 0px 20px 0px 20px; width: 285px; height: 20px; margin-top: 15px; border: none; outline: none; background: #FCFCFC; z-index: 2;}
+.user span{position: absolute; top: 15px; left: 20px; color: #676767; font-size: 14px;}
+
+.phone_number{ width: 328px; height: 50px; border-radius: 3px; border: solid 1px #E5E5E5;}
+.phone_number input{padding: 0px 20px 0px 20px; width: 285px; height: 20px; margin-top: 15px; border: none; outline: none; background: #FCFCFC; z-index: 2;}
+.phone_number span{position: absolute; top: 15px; left: 20px; color: #676767; font-size: 14px;}
+
+.massage{display: inline-block; width: 194px; height: 50px; border-radius: 3px; border: solid 1px #E5E5E5;}
+.massage input{padding: 0px 20px 0px 20px; width: 152px; height: 20px; margin-top: 15px; border: none; outline: none; background: #FCFCFC; z-index: 2;}
+.massage span{position: absolute; top: 15px; left: 20px; color: #676767; font-size: 14px;}
+.massage_btn{position: absolute; top: 0px; right: 200px; z-index: 2; display: block; background: #57565F; width: 126px; height: 50px; color: white; line-height: 50px; text-align: center; border-radius: 3px; font-size: 14px; cursor: pointer;} 
+
+.psw{ width: 328px; height: 50px; border-radius: 3px; border: solid 1px #E5E5E5;}
+.psw input{padding: 0px 20px 0px 20px; width: 285px; height: 20px; margin-top: 15px; border: none; outline: none; background: #FCFCFC; z-index: 2;}
+.psw span{position: absolute; top: 15px; left: 20px; color: #676767; font-size: 14px;}
+
+.psw-repeat{ width: 328px; height: 50px; border-radius: 3px; border: solid 1px #E5E5E5;}
+.psw-repeat input{padding: 0px 20px 0px 20px; width: 285px; height: 20px; margin-top: 15px; border: none; outline: none; background: #FCFCFC; z-index: 2;}
+.psw-repeat span{position: absolute; top: 15px; left: 20px; color: #676767; font-size: 14px;}
+
+.register_model > p{font-size: 12px; text-align: center;}
+.register_model > p > span{color: #FF4040; cursor: pointer;}
+.agree{display: block; background: #FF3C3C; width: 330px; height: 52px; color: white; font-size: 16px; line-height: 52px; text-align: center; border-radius: 3px;} 
+.agree:hover{background: #D72226;}
+
+.focus{position: absolute; left: 350px; top: 10px;font-size: 12px; background: #E4E4E4; display: none;}
+.focus span{max-width: 160px; padding: 10px; display: block;}
+
+.blurs_none{position: absolute; left: 350px; top: -10px;font-size: 12px; background: #FFF4D7; display: none;}
+.blurs_none span{max-width: 160px; padding: 10px; display: block;}
+
+.blurs_wrong{position: absolute; left: 350px; top: -10px;font-size: 12px; background: #FFF4D7; display: none;}
+.blurs_wrong span{max-width: 160px; padding: 10px; display: block;}
+/*底部*/
+.login_bottom{width: 980px; margin: 10px auto; clear: both; text-align: center; color: #333333; font-size: 12px; }
+.red span:hover{color: #FF4040;}

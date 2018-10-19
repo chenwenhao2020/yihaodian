@@ -1,0 +1,69 @@
+body{margin: 0px; padding: 0px; background: #FCFCFC;}
+#hide{display: none;}
+/*顶部*/
+.login_top{background: #FFFFFF; border: solid 1px #E1E1E1; height: 48px; padding: 12px;}
+.login_top_2{width: 1200px; margin: 0 auto;}
+.login_logo{float: left;}
+.login_top_right{float: right;}
+.help{position: relative; border: solid 1px #FFFFFF; float: right;}
+.help i{background: url(../img/yihaodian_login/regist.png)no-repeat -344px 0; display: inline-block; width: 16px; height: 18px; vertical-align: middle;}
+.help > img{float: right;margin-top: 5px; margin-right: 3px;}
+.help > a{line-height: 18px; font-size: 12px; text-decoration: none; color: black;}
+.help ul{position: absolute; left: -1px; margin: 0px; padding: 0px; width: 89px; background: #FFFFFF; border-bottom: solid 1px #CCCCCC;}
+.help ul li{list-style: none; font-size: 12px; color:black; margin-left: 18px; height: 25px;}
+.help ul a{text-decoration: none;  border-top: dashed 1px #cccccc; border-left: solid 1px #CCCCCC;border-right: solid 1px #CCCCCC;  display: block; line-height: 25px; }
+.wellcome{float: right; font-size: 12px; margin-top: 5px; margin-right: 20px;}
+.wellcome span{color: #999999;}
+.wellcome a{color: #0066CC; text-decoration: none;}
+/*内容*/
+.login_contain{width: 980px; margin: 26px auto; height: 450px;}
+.login_contain_logo{margin-top: 44px; float: left;}
+/*右边头部*/
+.login_contain_right{float: right;  width: 330px;/* height: 344px; */padding: 45px 35px 0px 35px; background: #FFFFFF; position: relative;}
+.login_contain_right_2{}
+.login_contain_right_2_head{height: 30px; line-height: 30px;}
+.login_contain_right_2_head > h3{margin: 0px; font-size: 14px; float: left; color: #666666;}
+.login_contain_right_2_head > a{font-size: 12px; float: right; color: #0066CC; text-decoration: none;}
+/*右边输入*/
+.login_contain_right_enter{height: 24px; padding: 14px 18px; border: 1px solid #dedede; line-height: 24px;}
+.login_contain_right_enter .login_name{display: inline-block;height: 24px; width: 42px; background: url(../img/yihaodian_login/login_new.png)no-repeat -50px 4px; vertical-align: middle;}
+.login_contain_right_enter > input{width: 230px; height: 24px;border: none; vertical-align: middle;font-size: 14px; outline: none;}
+.login_contain_right_enter .login_password{display: inline-block;height: 24px; width: 42px; background: url(../img/yihaodian_login/login_new.png)no-repeat -150px 4px; vertical-align: middle;}
+/*自动登陆*/
+.auto_forget{font-size: 12px; height: 24px; margin-bottom: 10px;}
+.auto_forget > span{color: #FF4040; display: none;}
+#auto_1{float: left; padding-left: 18px; margin-right: 5px; background: url(../img/yihaodian_login/login_new.png) no-repeat -347px -268px; text-decoration: none; color: #999999;}
+#auto_2{float: left; padding-left: 18px; margin-right: 5px; background: url(../img/yihaodian_login/login_new.png) no-repeat -347px -328px; text-decoration: none; color: #999999;}
+#auto_1:hover{background-position: -347px -298px;}
+.forget{float: right; text-decoration: none; color: #999999;}
+/*登录按钮*/
+.login_btn{display: block; background: #FF4040; color: white; height: 52px; text-align: center; line-height: 52px; font-size: 16px; border-radius: 3px;}
+.login_contain_right_bottom > p{font-size: 12px; color: #666666; margin: 15px 0px 15px 0px;}
+.login_contain_right_bottom_2{height: 35px; margin-bottom: 20px;}
+.big_icon{margin: 0px; padding: 0px; float: left;}
+.big_icon li{list-style: none; float: left; margin-right: 20px; cursor: pointer;}
+.big_icon li img{width: 32px; height: 35px;}
+.login_contain_right_bottom_2 > a{float: right; display: block; width: 97px; height: 34px; line-height: 34px; font-size: 12px; color: #999999; cursor: pointer;}
+.login_contain_right_bottom_2 > a > i{display: inline-block; vertical-align: middle; width: 20px; height: 26px; background: url(../img/yihaodian_login/login_new.png) no-repeat -200px 3px; margin-top: 5px; margin-left: 4px;}
+/*更多合作网站*/
+.small_icon{clear: both; display: none;}
+.small_icon ul{margin: 0px; padding: 0px;}
+.small_icon ul li{list-style: none; float: left; width: 82px; height: 17px; font-size: 12px; margin-bottom: 10px;}
+.small_icon ul li img{width: 82px; height: 17px;}
+/*角落二维码切换*/
+.login_change{position: absolute; right: 0px; bottom: -3px;}
+.login_change > a{display: block; width: 62px; height: 62px; background: url(../img/yihaodian_login/codeSwich.png) no-repeat -88px 0; cursor: pointer;}
+
+/*底部*/
+.login_bottom{width: 980px; margin: 10px auto; clear: both; text-align: center; color: #333333; font-size: 12px; }
+.red span:hover{color: #FF4040;}
+
+/*二维码扫描*/
+.login_contain_right_two{position: relative; float: right;  width: 330px; padding: 45px 35px 0px 35px; background: #FFFFFF; text-align: center; display: none;} 
+.big_code{width: 165px; height: 165px; padding: 10px; border: solid 1px #DEDEDE; margin-left: 70px;}
+.right_two_contain_top{font-size: 14px; font-weight: bolder; color: #666666;}
+.right_two_contain_top span{color: #FF4040; }
+.right_two_contain_bottom{font-size: 12px; color: #666666; margin-bottom: 20px;}
+/*角落二维码切换2*/
+.login_change2{position: absolute; right: 0px; bottom: -3px;}
+.login_change2 > a{display: block; width: 62px; height: 62px; background: url(../img/yihaodian_login/codeSwich.png) no-repeat 0px 0; cursor: pointer;}
